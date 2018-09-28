@@ -5,8 +5,8 @@ version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file("."))
   .enablePlugins(PlayScala)
-  .enablePlugins(PlayNettyServer)
-  .disablePlugins(PlayAkkaHttpServer)
+  // .enablePlugins(PlayNettyServer)
+  // .disablePlugins(PlayAkkaHttpServer)
 
 scalaVersion := "2.12.6"
 
